@@ -49,7 +49,7 @@ Store then in a folder that is easy to access.
 2. Run the homography calibration:
 
 ```
-python3 --video1 /path/to/cam1.mp4 --video2 /path/to/cam4.mp4 --homography-pth /path/to/save/the/homography/matrix
+python3 calibrate.py --video1 /path/to/cam1.mp4 --video2 /path/to/cam4.mp4 --homography-pth /path/to/save/the/homography/matrix
 ```
 
 You can also do `python3 calibrate.py --help`
