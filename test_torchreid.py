@@ -3,7 +3,6 @@ import torch
 import numpy as np
 import cv2
 from scipy.optimize import linear_sum_assignment
-import imageio
 
 
 def linear_assignment(cost_matrix):
